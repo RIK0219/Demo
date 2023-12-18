@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: white;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.menu a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14.5px;
+  font-weight: bolder;
+  margin: 10px;
+  color: black;
+  letter-spacing: 0.2px;
+}
+.menu a:hover {
+  color: #ff2b85;
+}
+.menu .b {
+  margin-right: 0;
+  width: 200px;
+  height: 50px;
+  background-color: #ff2b85;
+  padding: 13px 17px;
+  border-radius: 35px;
+  font-weight: bold;
+}
+.b:hover {
+  background: #da2570;
+}
+.menu i {
+  position: relative;
+  left: 15px;
+  font-size: 20px;
+  margin-left: 0;
+}
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url(https://www.foodpanda.com/wp-content/themes/wp-delivery-hero-core-v2/assets/img/placeholders/newsroom-foodpanda.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 65px;
+  width: 100%;
+  height: 480px;
+}
+.banner h2 {
+  position: relative;
+  top: 340px;
+  padding-left: 70px;
+  color: white;
+  line-height: 1;
+  font-size: clamp(3rem, 4vw, 6rem);
+  font-family: SemiBold, sans-serif;
+  letter-spacing: -0.025em;
+  font-size: 55px;
+  font-weight: 600;
+}
+.container{
+    width: 100%;
+    height: 1000px;
+    padding: 80px;
+    padding-right: 0;
+}
+.small{
+    border: 2px solid black;
+    width: 340px;
+    height: 450px;
+    float: left;
+    margin-right: 50px;
+}
+.small .image{
+    width: 334px;
+    height: 220px;
+    /* border-bottom: 2px solid; */
+    /* background: url(https://www.foodpanda.com/wp-content/uploads/2023/11/Pau-Pau-CX-1.png); */
+    /* background-size: cover; */
+}
+.small .image img{
+    /* width: 334px; */
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.list ul{
+    display: inline-block;
+    text-decoration: none;
+
+}
+.list ul li{
+    color: #ff2b85;
+}

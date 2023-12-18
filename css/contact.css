@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: white;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.menu a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14.5px;
+  font-weight: bolder;
+  margin: 10px;
+  color: black;
+  letter-spacing: 0.2px;
+}
+.menu a:hover {
+  color: #ff2b85;
+}
+.menu .b {
+  margin-right: 0;
+  width: 200px;
+  height: 50px;
+  background-color: #ff2b85;
+  padding: 13px 17px;
+  border-radius: 35px;
+  font-weight: bold;
+}
+.b:hover {
+  background: #da2570;
+}
+.menu i {
+  position: relative;
+  left: 15px;
+  font-size: 20px;
+  margin-left: 0;
+}
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url(https://www.foodpanda.com/wp-content/uploads/2023/02/fp-contact-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 65px;
+  width: 100%;
+  height: 480px;
+}
+.banner h2 {
+  position: relative;
+  top: 300px;
+  padding-left: 70px;
+  color: white;
+  line-height: 1;
+  font-size: clamp(3rem, 4vw, 6rem);
+  font-family: SemiBold, sans-serif;
+  letter-spacing: -0.025em;
+  font-size: 55px;
+  font-weight: 600;
+}
+form {
+  width: 100%;
+  height: 750px;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+form h2 {
+  font-family: sans-serif;
+  color: #343b36;
+}
+h3 {
+  font-family: sans-serif;
+  margin-top: 25px;
+  margin-bottom: 12px;
+  color: #343b46cf;
+}
+.size {
+  width: 730px;
+}
+.name {
+  float: left;
+  margin-right: 15px;
+}
+input {
+  width: 350px;
+  height: 43px;
+  border: 1px solid #8d929d;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 0 5px;
+  font-family: system-ui;
+  font-weight: 400;
+  outline: none;
+}
+.size .name p {
+  margin-top: 5px;
+  font-family: sans-serif;
+  color: #625656;
+  font-size: small;
+}
+.email h3 {
+  margin-top: 60px;
+}
+.email input {
+  width: 715px;
+}
+.msg input {
+  width: 715px;
+  height: 160px;
+  /* padding: .5rem 1rem; */
+}
+button {
+  color: white;
+  background: #ff2b85;
+  padding: 12px 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 25px;
+  margin-top: 45px;
+  cursor: pointer;
+}
+button:hover {
+  background: #da2570;
+  transition: 0.3s;
+}
+.caption {
+  background: #f5f5f6;
+  width: 100%;
+  height: 200px;
+}
+.caption div {
+  width: 780px;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+.caption div p {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #4e4a4a;
+  line-height: 1.5;
+}
+footer{
+  background: black;
+  width: 100%;
+  height: 500px;
+  padding: 80px;
+}
+.first{
+  display: block;
+}
+.first img{
+  width: 170px;
+}
+.second{
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-top:40px;
+  gap: 6rem;  
+}
+.second a{
+  display: inline-block;
+  text-decoration: none;
+  color: #e5e7eb;
+  width: 200px;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+a:hover{
+  color: white;
+  transition: .5s;
+}
+.second-3{
+  width: 250px;
+  position: relative;
+  left: 225px;
+}
+.icon{
+  display: inline-block;
+  width: 100px;
+  color: white;
+}
+.second i{
+  display: inline-block;
+  color: white;
+  margin: 15px 20px;
+  width: 24px;
+  height: 24px;
+  font-size: 30px;
+  margin-left: 0;
+}
+.second i:hover{
+  color: gray;
+  transition: .3s;
+  cursor: pointer;
+}
+.second-3 a{
+  font-size: 16px;
+  font-weight: 800;
+}
+.third{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.third h4{
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.third-1{
+  display: flex;
+  font-size: .900rem;
+  line-height: 1.25rem;
+}
+.third-1 a{
+  text-decoration: none;
+  color: white;
+  margin-left: 3px;
+  font-size: .985rem;
+}
+.underline a{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+.underline a:hover{
+  text-decoration: underline;
+}

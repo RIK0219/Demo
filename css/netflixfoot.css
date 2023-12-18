@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    background: black;
+    width: 100%;
+    height: 430px;
+    padding: 65px 178px;
+}
+footer div p{
+    color: rgba(255,255,255,0.7);
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+footer div p a{
+    color: rgba(255,255,255,0.7);
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+footer .container{
+    width: 900px;
+    height: 165px;
+}
+footer .fc{
+    float: left;
+    width: 225px;
+    height: 165px;
+    display: grid;
+}
+footer .fc a{
+    text-transform: capitalize;
+    display: inline-block;;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgba(255,255,255,0.7);
+}
+select{
+    color: white;
+    width: 120px;
+    height: 35px;
+    background: black;
+    font-size: 15px;
+    text-align: center;  
+    border-radius: 5px;
+    /* outline: 2px solid; */
+}
+p{
+    text-transform: capitalize;
+    letter-spacing: .5px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgba(255,255,255,0.7);
+}
+/* option:hover{
+    background: rgb(73, 73, 238);
+} */

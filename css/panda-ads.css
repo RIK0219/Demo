@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background:white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    /* position: fixed;
+    top: 0; */
+    z-index: 1;
+}
+.menu a{
+    text-decoration: none;
+    font-family:  sans-serif;
+    font-size: 14.5px;
+    font-weight: bolder;
+    margin: 10px;
+    color: black;
+    letter-spacing: 0.2px;
+}
+.menu a:hover{
+    color: #ff2b85;
+}
+.menu .b {
+    margin-right: 0;
+    width: 200px;
+    height: 50px;
+    background-color: #ff2b85;
+    padding: 13px 17px;
+    border-radius: 35px;
+    font-weight: bold;
+}
+.b:hover{
+    background: #da2570;
+}
+.menu i{
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+    margin-left: 0;
+}
+.banner{
+    background: url(https://www.foodpanda.com/wp-content/uploads/2022/11/02-1-e1680017639907.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    /* margin-top: 65px; */
+}
+.content{
+    color: white;
+    font-size: 27px;
+    padding: 135px 700px 0px 50px;
+    font-family: sans-serif;
+    line-height: 48px;
+    letter-spacing: -.025em;
+}
+.pera{
+    color: white;
+    width: 44%;
+    font-family: sans-serif;
+    letter-spacing: .5px;
+    margin: 20px 50px;
+    line-height: 25px;
+}
+.c a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    background: #ff2b85;
+    font-weight: bold;
+    padding: 14px 35px;
+    border-radius: 35px;
+}
+.c a:hover{
+    background: #da2570;
+}
+.clip{
+    background: #f0f2f4;
+    padding: 70px 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clip .clip1{
+    width: 50%;
+}
+.clip .clip2{
+    width: 50%;
+    padding: 40px 40px 40px 10px;
+}
+.clip .clip2 h2{
+    color: #343b46;
+    font-family: sans-serif;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+.clip .clip2 p{
+    padding: 20px 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #656970;
+}
+.clip .clip2 h3{
+    color: #343b46;
+    font-family: sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.ads{
+    width: 100%;
+    height: 100%;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.advertise{
+    width: 500px;
+    padding-right: 20px;
+}
+.ads .advertise h1{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: #434547;
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+.ads .advertise h2{
+    color: #343b46;
+    font-family: sans-serif;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.ads .advertise p{
+    padding: 20px 0;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.3;
+    color: #656970;
+}
+.phone{
+    width: 550px;
+}
+.phone img{
+    width: 100%;
+    height: 100%;
+}
+.logos{
+    width:100%;
+    height: 250px;
+    background: #f0f2f4;
+    padding:0 100px;
+}
+.logos h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: #343b46;
+    padding-top: 55px;
+}
+.logos div{
+    width: 86px;
+    height: 55px;
+    background: black;
+    float: left;
+    margin-top: 30px;
+}
+.logos div img{
+    width: 100%;
+    height: 100%;
+}
+.story{
+    width: 100%;
+    height: 525px;
+    padding: 70px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.story .text{
+    width: 50%;
+    height: 385px;
+    padding-right: 140px;
+}
+.story .text h1{
+    font-family: georgia;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 1.3;
+    color: #343b46;
+    margin-top: 20px;
+}
+.story .text p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: #656970;
+    line-height: 1.4;
+}
+.story .pic{
+    width: 50%;
+    height: 385px;
+}
+.story .pic{
+    background: url(https://www.foodpanda.com/wp-content/uploads/2023/05/01-scaled-e1684986893175.jpg);
+    width: 50%;
+    min-height: 24rem;
+    background-size: cover;
+}
+form{
+    width: 100%;
+    height: 870px;
+    background: #f0f2f4;
+    padding-left: 80px;
+    padding-right: 130px;
+}
+form .head{
+    width: 400px;
+    padding-top: 80px;
+}
+form .head h1{   
+    font-family: sans-serif;
+    font-size: 38px;
+    color: #343b46;
+}
+form .apply{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+form .apply div{
+    /* border: 1px solid; */
+    width: 510px;
+    height: 440px;
+    
+}
+form .apply div b{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #49505a;
+}
+div input{
+    border: 1px solid rgb(156 163 175);
+    width: 510px;
+    height: 45px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    font-size: 15px;
+    outline: none;
+}
+/* select ::-webkit-keygen-select{
+    deco
+} */
+div select{
+    border: 1px solid rgb(156 163 175);
+    width: 510px;
+    height: 45px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding: 0 15px;
+    color: #656970;
+    outline: none;
+}
+button{
+    background: #ff2b85;
+    cursor: pointer;
+    float: right;
+    padding: 12px 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+button:hover{
+    background: #da2570;
+    transition: .5s;
+}
+footer{
+    background: black;
+    width: 100%;
+    height: 500px;
+    padding: 80px;
+}
+.first{
+    display: block;
+}
+.first img{
+    width: 170px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-top:40px;
+    gap: 6rem;  
+}
+.second a{
+    display: inline-block;
+    text-decoration: none;
+    color: #e5e7eb;
+    width: 200px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: .9rem;
+    line-height: 1.5;
+}
+.second-3{
+    width: 250px;
+    position: relative;
+    left: 225px;
+}
+.icon{
+    display: inline-block;
+    width: 100px;
+    color: white;
+}
+.second i{
+    display: inline-block;
+    color: white;
+    margin: 15px 20px;
+    width: 24px;
+    height: 24px;
+    font-size: 30px;
+    margin-left: 0;
+}
+.second i:hover{
+    color: gray;
+    transition: .3s;
+    cursor: pointer;
+}
+.second-3 a{
+    font-size: 16px;
+    font-weight: 800;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.third h4{
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.third-1{
+    display: flex;
+    font-size: .900rem;
+    line-height: 1.25rem;
+}
+.third-1 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 3px;
+    font-size: .985rem;
+}
+.underline a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.underline a:hover{
+    text-decoration: underline;
+}
